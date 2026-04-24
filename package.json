@@ -1,0 +1,23 @@
+{
+  "name": "daybook",
+  "version": "1.0.0",
+  "description": "DayBook is a secure and user-friendly personal journaling app built with the MERN stack (MongoDB, Express, React, and Node.js). It allows users to easily log in, write, view, and manage their daily entries while ensuring a seamless, distraction-free, and private experience. Prioritizing simplicity, security, and privacy, DayBook helps you document your thoughts and memories with confidence and peace of mind.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenileshnishad/daybook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thenileshnishad/daybook/issues"
+  },
+  "homepage": "https://github.com/thenileshnishad/daybook#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
