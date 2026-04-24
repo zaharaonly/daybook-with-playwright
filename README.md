@@ -16,8 +16,9 @@ Head over to the [Vercel deployment branch](https://github.com/thenileshnishad/d
 4. [**Installation**](#4-installation)
    - [**Backend Setup**](#backend-setup)
    - [**Frontend Setup**](#frontend-setup)
-5. [**API Endpoints**](#5-api-endpoints)
-6. [**Contributing**](#6-contributing)
+5. [**Testing**](#5-testing)
+6. [**API Endpoints**](#6-api-endpoints)
+7. [**Contributing**](#7-contributing)
 
 ---
 
@@ -137,7 +138,7 @@ daybook/
 
 Follow these steps to set up the project locally:
 
-### Prerequisites
+### Precondition
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
@@ -213,7 +214,24 @@ The app should now be running locally. `By default`:
 
 ---
 
-## 5. API Endpoints
+## 5. Testing
+
+To run the automated E2E tests using Playwright:
+
+1. **Do the precondition**: Ensure you have successfully completed the Installation and Precondition steps above.
+2. **Start servers**: Execute `npm start` (or `npm run dev`) for both the backend and frontend to ensure the application is fully active.
+3. **Install Playwright**: Execute the following command from the root daybook directory I:
+   ```bash
+   npm init playwright@latest
+   ```
+4. **Run tests**: Execute the following command from the root daybook directory to spin up the testing suite UI:
+   ```bash
+   npx playwright test --ui
+   ```
+
+---
+
+## 6. API Endpoints
 
 | **Method** | **Endpoint**                | **Description**                                                                                                                                                                                          |
 | :--------- | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -232,7 +250,7 @@ The app should now be running locally. `By default`:
 
 ---
 
-## 6. Contributing
+## 7. Contributing
 
 Contributions are welcome! If you'd like to improve DayBook, please follow these steps:
 
